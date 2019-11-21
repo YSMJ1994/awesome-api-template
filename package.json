@@ -1,0 +1,28 @@
+{
+  "name": "awesome_api_template_ts",
+  "version": "2.0.11",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "gulp",
+    "build&publish": "yarn run build && yarn publish",
+    "test": "node scripts/test.js",
+    "test-single": "node scripts/test.js --runTestsByPath tests/login.spec.ts"
+  },
+  "files": ["es", "lib"],
+  "dependencies": {
+    "@types/mockjs": "^1.0.2",
+    "axios": "^0.19.0",
+    "mockjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "@jinyiao/awesome_api_scripts": "^1.0.0",
+    "ts-jest": "^24.1.0",
+    "jest": "^24.9.0",
+    "@types/jest": "^24.0.21",
+    "babel-jest": "^24.9.0"
+  }
+}

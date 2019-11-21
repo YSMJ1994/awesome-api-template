@@ -1,0 +1,10 @@
+.idea
+.vscode
+.DS_Store
+*.log
+*.temp
+node_modules
+/tsc
+*.local
+/es
+/lib
