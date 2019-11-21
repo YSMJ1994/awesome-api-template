@@ -1,5 +1,5 @@
 {
-  "name": "awesome_api_template_ts",
+  "name": "awesome_api_template",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
