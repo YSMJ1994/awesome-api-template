@@ -1073,17 +1073,11 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@jinyiao/awesome-api-scripts@^1.0.3":
-  version "1.0.3"
-  resolved "http://192.168.11.199:9874/@jinyiao%2fawesome-api-scripts/-/awesome-api-scripts-1.0.3.tgz#d814e09b588efee5fb481ea77cf5cb25ec15a927"
-  integrity sha512-UntforQKCq3DCLMoaNIMyy3etgx7CZVwl+Wab0VEN8N4AqlemEB+CU3LP04tr/pZoH3eGhP8a+VrYfKUA51TiA==
+"@jinyiao/awesome-api-scripts@^1.0.7":
+  version "1.0.7"
+  resolved "http://192.168.11.199:9874/@jinyiao%2fawesome-api-scripts/-/awesome-api-scripts-1.0.7.tgz#e670b8e766d4b7f34ca425a14a1a5f0cbc9918fa"
+  integrity sha512-bHr7dE85ToWImNKOcZ8qEaZnMQpmhSsQHwNps3UJSLN8pGUZrHdDYLFvbetQZl92C4TWtxbAN6D9iQ9T6OtKog==
   dependencies:
-    "@types/detect-port" "^1.1.0"
-    "@types/fs-extra" "^8.0.1"
-    "@types/node" "^12.11.6"
-    "@types/react" "16.9.0"
-    "@types/react-dom" "16.9.0"
-    "@types/react-router-dom" "5.1.2"
     babel-loader "8.0.6"
     babel-plugin-import "^1.12.2"
     babel-plugin-named-asset-import "^0.3.4"
@@ -1130,10 +1124,10 @@
     webpack "^4.41.0"
     webpack-dev-server "3.2.1"
 
-"@jinyiao/awesome-api-tools@^1.0.1":
-  version "1.0.1"
-  resolved "http://192.168.11.199:9874/@jinyiao%2fawesome-api-tools/-/awesome-api-tools-1.0.1.tgz#093c7c0bf5200d0c1f53830c0e22eeee1d9ae622"
-  integrity sha512-aKnkIB1qISi+WyWs8oHjjmyS/nlILorwqEyxVMxtu9ddReWvH4tJ7xvbZ7dE3slyvsEXJ9JZQD6rBEXz5bqKVw==
+"@jinyiao/awesome-api-tools@^1.0.3":
+  version "1.0.3"
+  resolved "http://192.168.11.199:9874/@jinyiao%2fawesome-api-tools/-/awesome-api-tools-1.0.3.tgz#5551eb760c8f7da9a880951ad877eed3a6157bc5"
+  integrity sha512-m4PiK7RwOmY8dpPoQ8uSKD9Pijs4q+dUxzM23ea5NahoAgPtnPHqCvWFKCtrvkZ53PKsaPgdalJORVC4BG/FBg==
   dependencies:
     mockjs "^1.1.0"
 
@@ -1182,18 +1176,6 @@
   resolved "http://192.168.11.199:9874/@types%2fclassnames/-/classnames-2.2.9.tgz#d868b6febb02666330410fe7f58f3c4b8258be7b"
   integrity sha1-2Gi2/rsCZmMwQQ/n9Y88S4JYvns=
 
-"@types/detect-port@^1.1.0":
-  version "1.1.0"
-  resolved "http://192.168.11.199:9874/@types%2fdetect-port/-/detect-port-1.1.0.tgz#07075d264e2e5a432624b1e7ffc11379fe66be8a"
-  integrity sha1-BwddJk4uWkMmJLHn/8ETef5mvoo=
-
-"@types/fs-extra@^8.0.1":
-  version "8.0.1"
-  resolved "http://192.168.11.199:9874/@types%2ffs-extra/-/fs-extra-8.0.1.tgz#a2378d6e7e8afea1564e44aafa2e207dadf77686"
-  integrity sha1-ojeNbn6K/qFWTkSq+i4gfa33doY=
-  dependencies:
-    "@types/node" "*"
-
 "@types/history@*":
   version "4.7.3"
   resolved "http://192.168.11.199:9874/@types%2fhistory/-/history-4.7.3.tgz#856c99cdc1551d22c22b18b5402719affec9839a"
@@ -1241,7 +1223,7 @@
   resolved "http://192.168.11.199:9874/@types%2fmockjs/-/mockjs-1.0.2.tgz#89887151c9b903028e9b569a28b4ad079d79943b"
   integrity sha1-iYhxUcm5AwKOm1aaKLStB515lDs=
 
-"@types/node@*", "@types/node@^12.11.6", "@types/node@^12.12.11":
+"@types/node@^12.12.11":
   version "12.12.11"
   resolved "http://192.168.11.199:9874/@types%2fnode/-/node-12.12.11.tgz#bec2961975888d964196bf0016a2f984d793d3ce"
   integrity sha1-vsKWGXWIjZZBlr8AFqL5hNeT084=
@@ -1251,13 +1233,6 @@
   resolved "http://192.168.11.199:9874/@types%2fprop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha1-KrDV2i5YFflLC51LldHl8kOrLKc=
 
-"@types/react-dom@16.9.0":
-  version "16.9.0"
-  resolved "http://192.168.11.199:9874/@types%2freact-dom/-/react-dom-16.9.0.tgz#ba6ddb00bf5de700b0eb91daa452081ffccbfdea"
-  integrity sha1-um3bAL9d5wCw65HapFIIH/zL/eo=
-  dependencies:
-    "@types/react" "*"
-
 "@types/react-dom@^16.9.4":
   version "16.9.4"
   resolved "http://192.168.11.199:9874/@types%2freact-dom/-/react-dom-16.9.4.tgz#0b58df09a60961dcb77f62d4f1832427513420df"
@@ -1265,7 +1240,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-router-dom@5.1.2", "@types/react-router-dom@^5.1.2":
+"@types/react-router-dom@^5.1.2":
   version "5.1.2"
   resolved "http://192.168.11.199:9874/@types%2freact-router-dom/-/react-router-dom-5.1.2.tgz#853f229f1f297513c0be84f7c914a08b778cfdf5"
   integrity sha1-hT8inx8pdRPAvoT3yRSgi3eM/fU=
@@ -1286,14 +1261,6 @@
   version "16.9.11"
   resolved "http://192.168.11.199:9874/@types%2freact/-/react-16.9.11.tgz#70e0b7ad79058a7842f25ccf2999807076ada120"
   integrity sha1-cOC3rXkFinhC8lzPKZmAcHatoSA=
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^2.2.0"
-
-"@types/react@16.9.0":
-  version "16.9.0"
-  resolved "http://192.168.11.199:9874/@types%2freact/-/react-16.9.0.tgz#27434f16d889a335eb4626d1f1e67eda54039e5b"
-  integrity sha1-J0NPFtiJozXrRibR8eZ+2lQDnls=
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
