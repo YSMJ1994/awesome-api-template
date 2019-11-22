@@ -1,5 +1,5 @@
-import {DocBase, DocBaseType, ApiModule, ApiInterface, ApiParam, ApiMock } from '@jinyiao/awesome-api-tools';
-import { withCancel, WithCancelResult } from '../utils/fetch';
+import { DocBase, ApiModule, ApiInterface, ApiParam, ApiMock } from '@jinyiao/awesome-api-tools';
+import { withCancel } from '../utils/fetch';
 
 export interface LoginParams {
 	username: string; // 用户名
@@ -10,17 +10,8 @@ export interface LoginResult {
 	ok: boolean;
 }
 
-type Login = (params: LoginParams) => WithCancelResult<LoginResult>;
-
-type Logout = () => WithCancelResult;
-
-declare class LoginModuleType extends DocBaseType {
-	static login: Login;
-	static logout: Logout;
-}
-
 @ApiModule('登录相关api', 0, '测试')
-class LoginModule extends DocBase {
+class TestModule extends DocBase {
 	@ApiInterface({
 		name: '登录接口',
 		description: '根据用户名和密码登录用户',
@@ -58,4 +49,4 @@ class LoginModule extends DocBase {
 	}
 }
 
-export default LoginModule;
+export default TestModule;

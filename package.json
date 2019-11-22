@@ -18,11 +18,11 @@
     "lib"
   ],
   "dependencies": {
-    "@jinyiao/awesome-api-tools": "^1.0.1",
+    "@jinyiao/awesome-api-tools": "^1.0.3",
     "axios": "^0.19.0"
   },
   "devDependencies": {
-    "@jinyiao/awesome-api-scripts": "^1.0.3",
+    "@jinyiao/awesome-api-scripts": "^1.0.7",
     "@types/axios": "^0.14.0",
     "@types/classnames": "^2.2.9",
     "@types/jest": "^24.0.21",

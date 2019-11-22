@@ -1,8 +1,9 @@
 import React from 'react';
 import apiModules from '../../index';
 import useCancel from '../../hooks/useCancel';
+
 const Test = () => {
-	const login = useCancel(apiModules.LoginModule.login);
+	const login = useCancel(apiModules.TestModule.login);
 	return (
 		<div>
 			<button

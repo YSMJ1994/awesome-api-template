@@ -1,8 +1,5 @@
-import LoginModule from './login';
-import AccountModule from './account';
+import TestModule from './test';
 
-export const apiList = [LoginModule, AccountModule];
-
-export { LoginModule, AccountModule };
-
-export default { LoginModule, AccountModule }
+export const apiList = [TestModule];
+export { TestModule };
+export default { TestModule }
