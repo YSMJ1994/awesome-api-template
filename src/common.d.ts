@@ -20,31 +20,6 @@ declare global {
 	type PropsWithChildren<P = {}> = P & { children?: ReactNode };
 	type ReactComponent<Props = {}, State = any> = FC<Props> | ComponentClass<Props, State>;
 	type RC<P extends {} = {}, S = any> = ReactComponent<P, S>;
-	type FN<P extends Array<any> = [], R = void> = (...args: P) => R;
-	interface O<T = any> {
-		[key: string]: T;
-	}
-	interface BaseResponse<T = any> {
-		data: T;
-		code: number;
-		msg: string;
-	}
-	
-	type PickKeys<S extends {}, T extends {} = {}> = keyof (S & T)
-	
-	/*type Merge<S extends {}, T extends {} = {}> = {
-		[K in OmitKeys<S, T>]: K extends keyof T ? T[K] : S[K]
-	}*/
-	
-	type ValueOf<T, K extends keyof T> = T[K]
-
-	type Merge<S extends {}, T extends {} = {}> = S & T
-	
-	type CustomObject<V> = {[key: string]: V}
-	
-	type PartialPart<T, P extends keyof T> = Merge<Omit<T, P>, Partial<Pick<T, P>>>
-	
-	// type OmitKeys<S extends {}[]> = 
 }
 
 declare module 'axios' {

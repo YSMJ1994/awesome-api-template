@@ -1,5 +1,6 @@
 import axios, { AxiosRequestConfig, AxiosResponse, Canceler, Method } from 'axios';
 import { UUID } from './index';
+import { Merge, FN, O } from '@jinyiao/awesome-api-tools'
 
 const timeout = Number(process.env.API_TIMEOUT) || 10000;
 const baseURL = process.env.API_BASE || '';

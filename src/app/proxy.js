@@ -7,19 +7,7 @@
 */
 
 const proxy = require('http-proxy-middleware');
-const { portArr } = require('./portSet');
 
 module.exports = function(app) {
-	portArr.forEach(({ base, target }) => {
-		app.use(
-			proxy(base, {
-				target,
-				changeOrigin: true,
-				pathRewrite: {
-					[`^${base}`]: ''
-				},
-				logLevel: 'warn'
-			})
-		);
-	});
+	// set proxy
 };

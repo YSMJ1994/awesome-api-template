@@ -1,15 +1,8 @@
 import LoginModule from './login';
 import AccountModule from './account';
-import PermissionModule from './permission';
 
-export default [
-	LoginModule, 
-	AccountModule, 
-	PermissionModule
-]
+export const apiList = [LoginModule, AccountModule];
 
-export { 
-	LoginModule, 
-	AccountModule, 
-	PermissionModule
-};
+export { LoginModule, AccountModule };
+
+export default { LoginModule, AccountModule }

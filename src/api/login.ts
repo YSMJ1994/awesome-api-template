@@ -1,6 +1,5 @@
-import DocBase, { DocBaseType, DocJSON } from '../model/DocBase';
-import { ApiModule, ApiInterface, ApiParam, ApiMock } from '../annotation';
-import fetch, { withCancel, WithCancelResult } from '../utils/fetch';
+import {DocBase, DocBaseType, ApiModule, ApiInterface, ApiParam, ApiMock } from '@jinyiao/awesome-api-tools';
+import { withCancel, WithCancelResult } from '../utils/fetch';
 
 export interface LoginParams {
 	username: string; // 用户名

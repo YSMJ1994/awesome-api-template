@@ -6,22 +6,33 @@
   "typings": "es/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "gulp",
+    "start": "awesome-api-scripts start",
+    "build": "awesome-api-scripts build",
+    "build-doc": "awesome-api-scripts build-doc",
     "build&publish": "yarn run build && yarn publish",
-    "test": "node scripts/test.js",
-    "test-single": "node scripts/test.js --runTestsByPath tests/login.spec.ts"
+    "test": "awesome-api-scripts test",
+    "test-single": "awesome-api-scripts test --runTestsByPath tests/login.spec.ts"
   },
-  "files": ["es", "lib"],
+  "files": [
+    "es",
+    "lib"
+  ],
   "dependencies": {
-    "@types/mockjs": "^1.0.2",
-    "axios": "^0.19.0",
-    "mockjs": "^1.1.0"
+    "@jinyiao/awesome-api-tools": "^1.0.1",
+    "axios": "^0.19.0"
   },
   "devDependencies": {
-    "ts-jest": "^24.1.0",
-    "jest": "^24.9.0",
+    "@jinyiao/awesome-api-scripts": "^1.0.3",
+    "@types/axios": "^0.14.0",
+    "@types/classnames": "^2.2.9",
     "@types/jest": "^24.0.21",
-    "babel-jest": "^24.9.0"
+    "@types/mockjs": "^1.0.2",
+    "@types/node": "^12.12.11",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-router-dom": "^5.1.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0"
   }
 }

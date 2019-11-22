@@ -1,5 +1,5 @@
-import DocBase from '../model/DocBase';
-import { ApiInterface, ApiModule, ApiParam } from '../annotation';
+import { DocBase, ApiInterface, ApiModule, ApiParam } from '@jinyiao/awesome-api-tools';
+
 export interface UserInfo {
 	id: string | number;
 	name: string;
@@ -7,10 +7,6 @@ export interface UserInfo {
 	sex: '男' | '女' | '';
 	email: string;
 }
-
-type GetUserInfo = () => Promise<UserInfo>;
-
-export let getUserInfo: GetUserInfo;
 
 @ApiModule('账户模块api')
 class AccountModule extends DocBase {
