@@ -1,6 +1,5 @@
 import React, { FC } from 'react';
 import { BrowserRouter as Router, Route, RouteComponentProps } from 'react-router-dom';
-import '../app/styles/fix.scss';
 import './App.scss';
 import Header from './components/Header';
 import Menu from './components/Menu';
